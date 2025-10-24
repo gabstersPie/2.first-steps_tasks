@@ -15,4 +15,11 @@
 #   print("enter a valid phone number")
 
 # Task 3
+my_name = "gaby"
+user_name = input("whats your name? ").strip() #strip is to remove other unnecessary characters like space
+
+if user_name.lower() == my_name:
+  print(True)
+else:
+  print(False)
 
